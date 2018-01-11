@@ -9,3 +9,7 @@ The site is loaded at http://127.0.0.1:8000/
 
 To start on a different port.
  - python manage.py runserver 8080
+
+To run on a local network.
+ - python manage.py runserver 0:8000
+0 corresponds to '0.0.0.0'

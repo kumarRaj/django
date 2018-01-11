@@ -25,7 +25,9 @@ SECRET_KEY = 'vm@r2=1k)sgd)61n=($)r!_2n#%z=e6+4ap@blrs_!ojk#h-to'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# To make it run on local network. 
+# Reference https://stackoverflow.com/questions/41755223/disallowed-host-at-django
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
